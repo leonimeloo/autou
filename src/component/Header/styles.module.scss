@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 6rem;
+    padding: 10px 2rem;
+    border-bottom: 1px solid #e6e8eb;
+    background-color: #fff;
+
+    a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            width: 5.7%;
+        }
+    
+        h1 {
+            font: 900 1.7rem "Red Hat Display", sans-serif;
+            color: #494D4B;
+            margin-left: 12px;
+        }
+    }
+
+    p {
+        font: 400 .8rem "Poppins", sans-serif;
+        color: #808080;
+        text-transform: capitalize;
+        width: 100%;
+        text-align: end;
+    }
+}
+
+@media (max-width: 887px) {
+    .header a img {
+        width: 7.6% !important;
+    }
+}
+
+@media (max-width: 530px) {
+    .header {
+        a {
+            img {
+                width: 13% !important;
+            }
+        }
+        
+        p {
+            display: none;
+        }
+    }
+}
