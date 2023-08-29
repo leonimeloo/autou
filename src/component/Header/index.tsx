@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import Link from "next/link";
 
 import moment from "moment";
+import 'moment/locale/pt-br';
 
 export default function Header() {
 

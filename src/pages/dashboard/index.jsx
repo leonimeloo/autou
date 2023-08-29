@@ -6,6 +6,7 @@ import styles from '@/styles/Dashboard.module.scss';
 import Link from 'next/link';
 
 import moment from 'moment';
+import 'moment/locale/pt-br';
 
 import json from '@/assets/data.json';
 
