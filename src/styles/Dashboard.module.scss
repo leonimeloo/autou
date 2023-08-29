@@ -247,3 +247,48 @@
         }
     }
 }
+
+@media (max-width: 792px) {
+
+    .profile, .cards {
+        height: 100% !important;
+    }
+    
+    .cards {
+        margin-bottom: 20px !important;
+    }
+
+    .ratingBtns {
+        flex-direction: column !important;
+    }
+
+    .rate {
+        padding: 22px 30px !important;
+    }
+
+    .owner img {
+        width: 8% !important;
+        height: 8% !important;
+    }
+}
+
+@media (max-width: 565px) {
+    .profile {
+        flex-direction: column !important;
+    }
+
+    .profileCard {
+        width: 80% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .rate {
+        width: 90% !important;
+    }
+
+    .owner img {
+        width: 10% !important;
+        height: 10% !important;
+    }
+}

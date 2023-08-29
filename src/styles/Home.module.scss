@@ -45,3 +45,11 @@
     }
   }
 }
+
+@media (max-width: 578px) {
+  .loginContainer {
+    width: 85vw !important;
+
+    text-align: center;
+  }
+}
